@@ -1,4 +1,4 @@
-import CKCLogo from "./images/ckclogo.png";
+import CKCLogo from "../images/ckclogo.png";
 import Card from '@mui/joy/Card';
 import { motion } from 'framer-motion';
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";

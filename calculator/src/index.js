@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 import { createRoot } from 'react-dom/client';
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";

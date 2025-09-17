@@ -2,8 +2,8 @@
 
 ## Introduction
 
-The Carbon Footprint Calculator with Dashboard is a web application developed over the MERN stack. This project aims to help individuals and organizations estimate their carbon footprint by considering various scope-wise parameters, including Scope 1 (fossil fuel and fugitives), Scope 2 (electricity), and Scope 3 (water and waste). This calculator provides a user-friendly interface for data input and visualizes the carbon emissions data using interactive charts. <br>
-Along with the calculator, the dashboard provides the lates news related to the activities taking place in the SEE department, such as projects, talks, papers published etc.<br>
+The Carbon Footprint Calculator with Dashboard is a simple web application which aims to help individuals and organizations estimate their carbon footprint by considering various scope-wise parameters, including Scope 1 (fossil fuel and fugitives), Scope 2 (electricity), and Scope 3 (water and waste). This calculator provides a user-friendly interface for data input and visualizes the carbon emissions data using interactive charts. <br>
+<!-- Along with the calculator, the dashboard provides the lates news related to the activities taking place in the SEE department, such as projects, talks, papers published etc.<br> -->
 
 The calculator is deployed at : https://iitk.ac.in/ckc/carbon-calculator/ <br>
 
@@ -31,7 +31,7 @@ The Carbon Footprint Calculator allows users to input data for different scopes 
 
 - Interactive charts generated using Chart.js provide users with a visual representation of their carbon emissions data. These charts help users gain insights into which areas contribute the most to their carbon footprint.
 
-## Features of the Dashboard
+<!-- ## Features of the Dashboard
 
 ### 1. Comprehensive display of activities at SEE, IIT Kanpur
 
@@ -40,16 +40,16 @@ The Carbon Footprint Calculator allows users to input data for different scopes 
 
 ### 2. Support for uploading new data via admin login
 
-- The admin can log into the server and update the data that is being displayed. Along with this, the current data can also be downloaded as an Excel Sheet.
+- The admin can log into the server and update the data that is being displayed. Along with this, the current data can also be downloaded as an Excel Sheet. -->
 
 
-## Technologies Used
+## Tech Used
 
-- **React.js**: The frontend of the application is built using React.js, a popular JavaScript library for building user interfaces.
+- **React.js**: The application is built using React.js, a popular JavaScript library for building user interfaces.
 - **ExcelJS** : For calculations of emission values from the excel sheet uploaded by the user.
 - **Chart.js**: Chart.js is used for creating interactive charts that display carbon emissions data.
-- **MongoDB** : For storage and retrieval of dashboard data.
-- **Node.js with ExpressJS**: For creating a backend server to interact with the MongoDB database.
+<!-- - **MongoDB** : For storage and retrieval of dashboard data.
+- **Node.js with ExpressJS**: For creating a backend server to interact with the MongoDB database. -->
 
 ## Installation
 
@@ -57,9 +57,9 @@ To run the Carbon Footprint Calculator on your local machine, follow these steps
 
 1. Clone the GitHub repository: `git clone`
 
-2. Navigate to all the directories (calculator/dashboard/backend) and install dependencies in the respective directories: `npm install`.
+2. Navigate to all the directories and install dependencies in the respective directories: `npm install`.
 
-3. Start the development server to start the frontend, either for calculator or for dashboard: `npm start`.
+3. Start the development server: `npm start`.
 
-4. Naviage to the backend folder using `cd ../backend` and run `node server.js` to start the backend server.
+<!-- 4. Naviage to the backend folder using `cd ../backend` and run `node server.js` to start the backend server. -->
 

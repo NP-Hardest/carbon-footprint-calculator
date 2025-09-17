@@ -12,15 +12,15 @@ import { faPlaneDeparture } from '@fortawesome/free-solid-svg-icons';
 import { faLeaf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
-import AC from "./images/AC.png";
+import AC from "../images/AC.png";
 import Select from '@mui/joy/Select';
 import Option from '@mui/joy/Option';
 import { useState } from 'react';
 import Button from '@mui/joy/Button';
-import emissionFactors from './emissionFactors.json';
+import emissionFactors from '../emissionFactors.json';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import FacilityYearMonth from './FacilityYearMonth';
+import FacilityYearMonth from '../components/FacilityYearMonth';
 
 export default function Calculator(data) {
   const [loading, setLoading] = useState(true);

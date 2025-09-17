@@ -1,5 +1,5 @@
 
-import emissionFactors from './emissionFactors.json';
+import emissionFactors from '../emissionFactors.json';
 import ExcelJS from 'exceljs';
 
 

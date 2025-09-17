@@ -8,10 +8,10 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons';
 import { faFileExcel } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from "react";
-import iitklogo from "./images/iitklogo.png"
-import iitk from "./images/iitk.jpg"
-import ckclogo from "./images/ckclogo.png"
-import Calculating from "./Calculating.js";
+import iitklogo from "../images/iitklogo.png"
+import iitk from "../images/iitk.jpg"
+import ckclogo from "../images/ckclogo.png"
+import Calculating from "../components/Calculating.js";
 
 
 const VisuallyHiddenInput = styled('input')`clip: rect(0 0 0 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; bottom: 0; left: 0; white-space: nowrap; width: 1px;`;
@@ -44,7 +44,7 @@ export default function Home(data) {
     data.setCalculating(true);
     if (selectedFile) {
       try {
-        const worker = new Worker(new URL('./worker.js', import.meta.url));
+        const worker = new Worker(new URL('../components/worker.js', import.meta.url));
 
         worker.onmessage = (e) => {
           const { error, fossilData, fugitiveData, electricityData, waterData, wasteData, travelData, offsetData } = e.data;

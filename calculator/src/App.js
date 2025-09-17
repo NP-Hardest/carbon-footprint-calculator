@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Home.js"
-import Calculator from "./Calculator.js"
+import Home from "./pages/Home.js"
+import Calculator from "./pages/Calculator.js";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Result from "./Result.js";
-import Contact from "./Contact.js";
+import Result from "./pages/Result.js";
+import Contact from "./pages/Contact.js";
 
 export default function App() {
   const [calculating, setCalculating] = useState(false);
